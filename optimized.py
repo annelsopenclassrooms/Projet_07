@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
 
     W = 500
-    n = 20
+    n = len(value)
     print(knapSack(W, value, profit, names, n))
 
 
